@@ -1,19 +1,19 @@
-*** #include <iostream>
-     int main()
-    {
-       int n, _max = 0, k;
-       std::cout << "Input n: ";
-       std::cin >> n;
-       for (int i = 1; n != 1; ++i) {
-            if (n % 2 == 0) {
-                _max = _max < n ? n : _max;
-                 n /= 2;
-            }
-            else {
+#include <iostream>
+int main()
+{
+    int n, _max = 0, k;
+    std::cout << "Input n: ";
+    std::cin >> n;
+    for (int i = 1; n != 1; ++i) {
+        if (n % 2 == 0) {
+            _max = _max < n ? n : _max;
+            n /= 2;
+        }
+        else {
             _max = _max < n ? n : _max;
             n = 3 * n + 1;
         }
         k = i;
     }
     std::cout << "Number of steps: " << k << std::endl << "Max value: " << _max << std::endl;
-} ***
+}
