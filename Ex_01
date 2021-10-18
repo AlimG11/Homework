@@ -1,4 +1,4 @@
-```#include <iostream>
+``` #include <iostream>
 int main()
 {
     int n, _max = 0, k;
@@ -16,4 +16,5 @@ int main()
         k = i;
     }
     std::cout << "Number of steps: " << k << std::endl << "Max value: " << _max << std::endl;
-}```
+}
+```
