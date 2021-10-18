@@ -1,4 +1,4 @@
-```.jsx
+```.jsf
 #include <iostream>
 int main()
 {
