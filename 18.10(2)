@@ -1,5 +1,4 @@
 ```
-
 #include <iostream>
 #include <string>
 
@@ -67,5 +66,4 @@ int main()
     }
     std::cout << "Desired number: " << res << std::endl;
 }
-
 ```
