@@ -1,0 +1,69 @@
+```
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int ss, p;
+    unsigned long long n;
+    std::string str = "", res = "";
+    do {
+        std::cout << "Input n: ";
+        std::cin >> n;
+    } while (n <= 0);
+    do {
+        std::cout << "Input number sytem (from 2 to 16): ";
+        std::cin >> ss;
+    } while (ss < 2 && ss > 16);
+    if (ss == 10) {
+        std::cout << "Desired number: " << n << std::endl;
+        return 0;
+    }
+    if (ss < 10) {
+        for (int i = 0; n >= ss; ++i) {
+            str.push_back(char(n % ss) + '0');
+            n /= ss;
+        }
+        str.push_back(char(n) + '0');
+        for (int i = 1; i < str.size()+1; ++i) {
+            int j = str.size() - i;
+            res.push_back(str[j]);
+        }
+        std::cout << "Desired number: " << res << std::endl;
+    }
+    else {
+        if (n < ss) {
+            p = -1;
+            if (n < 10) {
+                str.push_back(char(n)+'0');
+            }
+            else {
+                str.push_back(char('A' + n - 10));
+            }
+        }
+        while (n >= ss) {
+            p = n % ss;
+            if (p < 10) {
+                str.push_back(char(p) + '0');
+            }
+            else {
+                str.push_back(char('A' + p - 10));
+            }
+            n /= ss;
+        }
+        if (n < ss && p != -1) {
+            if (n < 10) {
+                str.push_back(char(n) + '0');
+            }
+            else {
+                str.push_back(char('A' + n - 10));
+            }
+        }
+    }
+    for (int i = 1; i < str.size() + 1; ++i) {
+        int j = str.size() - i;
+        res.push_back(str[j]);
+    }
+    std::cout << "Desired number: " << res << std::endl;
+}
+```
