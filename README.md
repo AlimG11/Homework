@@ -10,4 +10,4 @@
 * [Go to 25.10(5)](https://github.com/AlimG11/Homework/blob/main/25.10(5).md)
 * [Go to 15.11(1)]()
 * [Go to 15.11(2)]()
-* [Go to 22.11]()
+* [Go to 22.11](https://github.com/AlimG11/Homework/blob/main/22.11.md)
