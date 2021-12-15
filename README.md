@@ -11,5 +11,5 @@
 * [Go to 15.11(1)]
 * [Go to 15.11(2)]
 * [Go to 22.11](https://github.com/AlimG11/Homework/blob/main/22.11.md)
-* [Go to 08.11(1)]
+* [Go to 08.11(1)](https://github.com/AlimG11/Homework/blob/main/08.11(1).md)
 * [Go to 08.11(2)](https://github.com/AlimG11/Homework/blob/main/08.11(2).md)
