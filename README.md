@@ -1,4 +1,5 @@
 ## Homework list
+* [Go to 04.10](https://github.com/AlimG11/Homework/blob/main/04.10.md)
 * [Go to 11.10](https://github.com/AlimG11/Homework/blob/main/11.10.md)
 * [Go to 18.10(1)_Сиракузская последовательность](https://github.com/AlimG11/Homework/blob/main/18.10(1)_Сиракузская%20последовательность.md)
 * [Go to 18.10(2)](https://github.com/AlimG11/Homework/blob/main/18.10(2).md)
